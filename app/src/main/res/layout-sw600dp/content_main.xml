@@ -1,0 +1,33 @@
+<LinearLayout
+    android:name="com.shenawynkov.movieapp.MainActivityFragment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment android:id="@+id/fragment"
+              android:name="com.shenawynkov.movieapp.MainActivityFragment"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="0dp"
+              android:layout_weight="0.5"
+              android:layout_height="match_parent"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+              tools:layout="@layout/fragment_main"/>
+
+
+
+    <FrameLayout android:id="@+id/fragment_detail"
+                 android:layout_weight="0.5"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+
+               />
+
+
+
+</LinearLayout>
