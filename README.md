@@ -22,3 +22,6 @@ You must provide your own API key in order to build the app. When you get it, ju
     ```
 
 ## Screens
+![Screenshot](Screenshot_2017-07-26-00-10-11.png)
+![Screenshot](Screenshot_2017-07-26-00-10-42.png)
+![Screenshot](Screenshot_2017-07-26-00-10-47.png)
